@@ -1,0 +1,26 @@
+{
+  "name": "realtimechat",
+  "version": "1.0.0",
+  "description": "Chat in real time",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/votanruchel/realtimechat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/votanruchel/realtimechat/issues"
+  },
+  "homepage": "https://github.com/votanruchel/realtimechat#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
